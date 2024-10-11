@@ -1,0 +1,7 @@
+selected resource name:		pl_scdType2
+selected resource type:		pipeline
+factory name:			eur-covid19-adf
+factory location:		uksouth
+subscription id:		37275858-2c79-4082-88d1-2b121d87d443
+data flow session id:		159fde5c-1c18-4656-b6b1-ad89913a732f
+time of download (UTC):		Fri, 11 Oct 2024 09:21:41 GMT

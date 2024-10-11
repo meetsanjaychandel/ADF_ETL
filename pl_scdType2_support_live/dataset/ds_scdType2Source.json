@@ -1,0 +1,40 @@
+{
+    "name": "ds_scdType2Source",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_ablob_covidreportingsa",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobStorageLocation",
+                "fileName": "age.csv",
+                "container": "scd"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "name": "Id",
+                "type": "String"
+            },
+            {
+                "name": "Name",
+                "type": "String"
+            },
+            {
+                "name": "Age",
+                "type": "String"
+            },
+            {
+                "name": "City",
+                "type": "String"
+            }
+        ]
+    }
+}

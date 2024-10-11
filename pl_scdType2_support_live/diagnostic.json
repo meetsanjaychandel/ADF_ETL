@@ -1,0 +1,24 @@
+{
+    "now": "2024-10-11T09:21:41.781Z",
+    "perfNow": 5178171.599999994,
+    "diagnosticCorrelation": "23fa4c81-6bd9-41f2-af6d-35062ca58466",
+    "source": "DownloadSupportFiles",
+    "environment": {
+        "productName": "adf",
+        "buildVersion": "1.0.092724.5",
+        "environmentType": 3,
+        "resourceName": "eur-covid19-adf",
+        "resourceRegion": "uksouth",
+        "resourceGroup": "covid_reporting_rg",
+        "subscriptionId": "37275858-2c79-4082-88d1-2b121d87d443",
+        "sessionId": "A7DbZfcxxfurlJoVaKgkz+",
+        "operationId": "",
+        "gitType": "live",
+        "loggingKey": "fe98720a-23b6-4297-b4ac-89da3837ca3c"
+    },
+    "additionalInfo": {
+        "selectedResource": "pl_scdType2",
+        "selectedResourceType": "pipeline",
+        "dataFlowSessionId": "159fde5c-1c18-4656-b6b1-ad89913a732f"
+    }
+}

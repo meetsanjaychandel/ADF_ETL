@@ -1,0 +1,45 @@
+{
+    "name": "ds_sctype2_sink",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_sql_coviddb",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzureSqlTable",
+        "schema": [
+            {
+                "name": "surrKey",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "id",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "name",
+                "type": "varchar"
+            },
+            {
+                "name": "age",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "city",
+                "type": "varchar"
+            },
+            {
+                "name": "isActive",
+                "type": "int",
+                "precision": 10
+            }
+        ],
+        "typeProperties": {
+            "schema": "dbo",
+            "table": "tbl_age"
+        }
+    }
+}
