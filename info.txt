@@ -1,0 +1,6 @@
+selected resource name:		pl_execute_population_pipelines
+selected resource type:		pipeline
+factory name:			eur-covid19-adf
+factory location:		uksouth
+subscription id:		37275858-2c79-4082-88d1-2b121d87d443
+time of download (UTC):		Fri, 11 Oct 2024 10:02:54 GMT
